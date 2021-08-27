@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #eeeeee;
+}
+
+.contenedor {
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background: #2c3e50;
+    width: 100%;
+    /*para que abarque todo el documento*/
+    padding: 20px;
+    /*Flex*/
+    display: flex;
+    /*se le colocan las propiedades flex porque va a ser un elemento padre*/
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
